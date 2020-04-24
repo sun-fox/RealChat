@@ -1,0 +1,25 @@
+{
+  "name": "realchat",
+  "version": "1.0.0",
+  "description": "Red Chat Application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sun-fox/RealChat.git"
+  },
+  "author": "Sunny Kumar Singh (NIT Jamshedpur)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sun-fox/RealChat/issues"
+  },
+  "homepage": "https://github.com/sun-fox/RealChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "socket.io": "^2.3.0"
+  }
+}
